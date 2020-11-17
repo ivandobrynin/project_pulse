@@ -1,0 +1,120 @@
+@media (max-width:950px) {
+    .container {
+        padding: 0 15px 0 15px;
+    }
+}
+
+
+@media (max-width:800px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+    .header {
+        &__official {
+            display:  none;
+        }
+        &__phone{
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        &__official {
+            display: none;
+        }
+        &__logo {
+            img {
+                width: 90%;
+            }
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 19px;
+        }
+    }
+    .advantage {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__text {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .promo {
+        &__wrapper {
+            margin-top: 40px;
+            
+        }
+        &__header {
+            font-size: 27px;
+        }
+        &__subheader {
+            margin-top: 8px;
+            font-size: 15px;
+        }
+        &__icons {
+            width: 350px;
+        }
+    }
+    .advantage {
+        &__title {
+            font-size: 20px;
+        }
+    }
+   
+}
+@media (max-width:375px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        &__official {
+            display: none;
+        }
+        &__logo {
+            display: none;
+        }
+        &__contacts {
+            align-items: center;
+        }
+    }
+    .promo {
+        min-height: 570px;
+        &__header {
+            font-size: 23px;
+        }
+        &__subheader {
+            font-size: 13px;
+        }
+        &__icons {
+            width: 280px;
+        }
+    }
+    .button_main {
+        margin-top: 40px;
+    }
+    .advantage {
+        &__subtitle {
+            margin-bottom: 10px;
+        }
+        &__item {
+            img {
+                margin-bottom: 10px;
+            }
+        }
+        &__text {
+            margin-bottom: 30px;
+        }
+    }
+}
